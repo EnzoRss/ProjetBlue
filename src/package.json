@@ -1,0 +1,25 @@
+{
+  "name": "rossi-barbesier-pham-blue-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "supervisor app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnzoRss/Rossi-Barbesier-Pham-blue-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EnzoRss/Rossi-Barbesier-Pham-blue-project/issues"
+  },
+  "homepage": "https://github.com/EnzoRss/Rossi-Barbesier-Pham-blue-project#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "supervisor": "^0.12.0"
+  }
+}
