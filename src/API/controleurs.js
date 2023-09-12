@@ -20,7 +20,9 @@ exports.getplayerdata = (req,res) =>{
 
 exports.getEventData =(req,res) => {
     const id =parseInt(req.params.id)
-    const event = data_event[id]
+    const event = data_event.event[`${id}`]
+    console.log(id)
+    console.log(event)
 
     if(!event) {
         return res.status(404).send("event non trouver");
@@ -31,5 +33,4 @@ exports.getEventData =(req,res) => {
         });
     }
 }
-
 
