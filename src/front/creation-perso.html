@@ -18,33 +18,29 @@
     <form class="form" id="one">
       <div class="pageTitle title">Création Personnage </div>
       <div class="secondaryTitle title">Veuillez compléter les champs pour créer le personnage</div>
-      <input type="text" class="name formEntry" placeholder="Nom du personnage " />
+      <input type="text" class="name formEntry" placeholder="Nom du personnage "   required/>
    
-      <fieldset id="one">
-        <legend id ="title">Choisissez un item:</legend>
-      
-        <div>
-   
-        
-          <label for="huey"></label>
-          
-          <input  class="controller" id="controller" type="image" value="controller"  src="./assets/img/controller.png" height="50px" style="margin: 0rem 0.5rem ;padding-top: 10px;"/>
-        <span class="tooltiptext">Tooltip text</span>
-      </div>
-      
-        <div>
-          
-          <label for="dewey"></label>
-          <p id="firstitem">manette</p>
-          <input  id="monitor" type="image" value="monitor"  src="./assets/img/monitor.png" height=55px  width="55px" style="margin: 1rem 0.25rem;"/>
+      <fieldset id="one" aria-required="true">
+
+
+        <div class="radio-image">
+          <input type="radio" id="option1" name="options" value="1">
+          <label for="option1">
+            <img src="./assets/img/controller.png" alt="Option 1">
+          </label>
         </div>
-      
-        <div>
-  
-          <label for="louie"> </label>
-          <p id="seconditem">moniteur 360Hz</p>
-          <input  id="mouse" type="image"  value="mouse" src="./assets/img/mouse.png" height=50px  width="50px" style="margin: 1rem 0.5rem;"/>
-          <p id="thirditem">souris 12 bouttons</p>
+        
+        <div class="radio-image">
+          <input type="radio" id="option2" name="options" value="2">
+          <label for="option2">
+            <img src="./assets/img/monitor.png" alt="Option 2">
+          </label>
+        </div>
+          <div class="radio-image">
+            <input type="radio" id="option3" name="options" value="3">
+            <label for="option3">
+              <img src="./assets/img/mouse.png" alt="Option 2">
+          </label>
         </div>
       </fieldset>
       
@@ -108,7 +104,7 @@
         </div>
       </fieldset>
 
-        
+      <button class="submit formEntry" onclick="thanks()">Submit</button>
 
  
     </form>
