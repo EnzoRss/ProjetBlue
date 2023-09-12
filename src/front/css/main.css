@@ -119,6 +119,7 @@ body {
     width: 300px;
     border-top: 5px solid #157bbb;
     border-radius: 0%;
+    cursor: pointer;
   }
   
   @keyframes bounce {
