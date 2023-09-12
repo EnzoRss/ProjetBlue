@@ -1,7 +1,7 @@
 {
   "event":[
     {
-      "Description": " A Force de persévérance (et de chance  peut etre ) vous avez réussi à vous hisser parmi les meilleurs dans la compétition et  vous etes  dans la dernière ligne droite pour remporter la première place  cependant  vous avez reçu une invitation pour une soirée qui semble déchirer",
+      "Description": " A Force de persévérance (et de chance  peut etre ) vous avez réussi à vous hisser parmi les meilleurs dans la compétition et  vous etes  dans la dernière ligne droite pour remporter la première place  cependant  vous avez reçu une invitation pour une soirée en boite de nuit  qui semble déchirer",
       "Choix 1": " Aller à la soirée",
       "Choix 2": " Continuer à s'entrainer"
     }
@@ -34,6 +34,11 @@
       "Description": "Une entreprise renommée vous contacte pour faire la promotion d'un tout nouvel article qui a récemment été reconnu comme étant défectueux contre  une rénumération importante. D'un côté, vous pourriez choisir de faire le placement de produits en ligne et de promouvoir cet article comme étant révolutionnaire, ce qui vous rapporterait un bonus significatif sur votre salaire. Cependant, vous savez que cela pourrait nuire aux consommateurs et les tromper, tout en entachant votre propre intégrité. D'un autre côté, vous pourriez refuser de participer à cette tromperie, mais cela signifierait une perte de revenu qui pourrait avoir des conséquences sur votre qualité de vie",
       "Choix 1": "Faire la promotion du produit",
       "Choix 2":  "Y Renoncer"
+    },{
+      "Description":"Alors que votre stream gagne en popularité, l'occasion se présente de faire des microtransactions pour obtenir des caisses mystères, chacune promettant une surprise différente. Vous êtes confronté à une décision cruciale : ouvrir trois caisses mystères ou aller plus loin en en ouvrant dix. La tentation d'obtenir un butin rare et précieux est grande, mais vous devez peser le risque financier et l'impact sur votre réputation. C'est un choix difficile à faire alors que votre public attend avec impatience de voir ce que vous allez dévoiler. Quelle option choisirez-vous pour la suite du stream ?",
+      "Choix 1":" Ouvrir 10 Caisses",
+      "Choix 2":" ouvrir 3 Caisses"
     }
+
   ]
 }
