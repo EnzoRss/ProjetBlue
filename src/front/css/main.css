@@ -268,7 +268,7 @@ color: #829ace;
   
   .picto-item {
     position: relative;  /*les .picto-item deviennent référents*/
-    cursor: help;
+    cursor: pointer;
     border-radius: 50%;
   }
   
