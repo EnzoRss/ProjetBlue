@@ -1,9 +1,39 @@
 {
   "event":[
     {
-      "Description": "",
-      "Choix_1": "",
-      "Choix_2": ""
+      "Description": " A Force de persévérance (et de chance  peut etre ) vous avez réussi à vous hisser parmi les meilleurs dans la compétition et  vous etes  dans la dernière ligne droite pour remporter la première place  cependant  vous avez reçu une invitation pour une soirée qui semble déchirer",
+      "Choix 1": " Aller à la soirée",
+      "Choix 2": " Continuer à s'entrainer"
+    }
+    ,{
+      "Description": "Dans l'arène brûlante de la compétition, vous vous tenez prêt pour le match . Les enjeux sont  forts, et alors que vous attendez le signal du début, une tentation sournoise se glisse dans votre esprit : tricher pour gagner. D'un côté, la tricherie pourrait vous offrir la victoire tant convoitée, de nouveaux fan et de nouveaux sponsors. De l'autre, choisir de jouer équitablement vous garantirait l'honneur, l'intégrité et le respect de vos pairs . La décision vous appartient, et elle pourrait influer sur  votre carrière. Allez-vous prendre le chemin de la triche pour atteindre la victoire à tout prix, ou resterez-vous fidèle à vos valeurs et compétences, refusant de compromettre votre intégrité ? ",
+      "Choix 1": " Tricher",
+      "Choix 2":  "Ne pas tricher"
+    }
+    ,{
+      "Description": "Vous vous préparez pour la compétition , le moment où votre d'entraînement acharné pourrait enfin porter ses fruits. Alors que la pression monte, un ami douteux, connu pour sa tendance à flirter avec l'illégalité, s'approche de vous en douce. Dans sa main, une offre tentante : des produits dopants qui pourraient vous donner un avantage injuste sur vos adversaires. D'un côté, l'acceptation de cette offre pourrait vous propulser dans le classement , la célébrité et la victoire. De l'autre, le refus vous garantirait une conscience propre, l'intégrité sportive et la fierté de gagner de manière éthique. La décision est difficile, et le temps presse. Allez-vous vous assurer  d'avoir toutes les chances de votre coté et tricher pour atteindre le sommet, ou allez-vous maintenir votre intégrité, refusant de compromettre vos valeurs morales ?",
+      "Choix 1": "S'Abstenir",
+      "Choix 2":  "Prendre les produits dopants"
+    }
+    ,{
+      "Description": "Alors que vous planifiez votre week-end, une opportunité unique se présente : un événement spécial dédié à votre jeu vidéo préféré, qui ne se produit qu'une fois dans une vie, aura lieu en ville. D'un côté, vous pourriez décider de participer à cet événement, rencontrer d'autres fans, obtenir des objets exclusifs et peut-être même rencontrer les créateurs du jeu. D'un autre côté, cela signifierait sacrifier d'autres engagements importants et peut-être décevoir des amis ou des proches qui comptaient sur vous. Le choix n'est pas facile, car il s'agit d'une occasion unique, mais il est également important de ne pas négliger vos responsabilités et vos engagements. Allez-vous céder à la tentation et plonger dans le monde de votre jeu préféré, ou allez-vous honorer vos engagements et responsabilités, sachant que cette opportunité spéciale pourrait ne jamais se reproduire",
+      "Choix 1": "Y aller ",
+      "Choix 2":  "Ne pas y aller"
+    }
+    ,{
+      "Description": "Alors que vous vous impliquez activement dans le bénévolat au sein de votre communauté, une occasion se présente lors d'un stream  pour soutenir une association caritative importante. Vous avez la responsabilité d'organiser une collecte de fonds cruciale pour cette organisation qui œuvre pour une cause noble. D'un côté, vous pourriez décider de jouer un jeu dangereux et détourner une partie des fonds à votre propre profit, ce qui vous donnerait plus de moyen pour gagner les prochaines compétitions. D'un autre côté, cela signifierait trahir la confiance de ceux qui ont contribué à la collecte de fonds, ainsi que mettre en péril la mission de l'association caritative et ceux qui en bénéficient.",
+      "Choix 1": "Donner l'Argent à l'Association",
+      "Choix 2":  "Le Garder"
+    }
+    ,{
+      "Description": "Vous êtes un streamer populaire et passionné après tout , et des milliers de téléspectateurs se connectent pour vous écouter discuter du sujet brûlant du moment. Vous avez une opportunité unique de partager votre véritable opinion, même si elle peut être controversée, ou de dire ce que vous pensez que votre public veut entendre, ce qui pourrait vous apporter davantage de soutien et d'adhésion. D'un côté, vous pourriez choisir de rester fidèle à vous-même, de parler franchement et de partager vos convictions les plus profondes, même si cela signifie aller à l'encontre de certaines tendances populaires. D'un autre côté, vous pourriez opter pour la diplomatie et l'opportunisme en disant ce que votre public souhaite entendre, ce qui pourrait vous apporter une plus grande visibilité et de nombreux followers",
+      "Choix 1": "Dire se que vous pensez vraiment",
+      "Choix 2":  "Mentir "
+    }
+    ,{
+      "Description": "Une entreprise renommée vous contacte pour faire la promotion d'un tout nouvel article qui a récemment été reconnu comme étant défectueux contre  une rénumération importante. D'un côté, vous pourriez choisir de faire le placement de produits en ligne et de promouvoir cet article comme étant révolutionnaire, ce qui vous rapporterait un bonus significatif sur votre salaire. Cependant, vous savez que cela pourrait nuire aux consommateurs et les tromper, tout en entachant votre propre intégrité. D'un autre côté, vous pourriez refuser de participer à cette tromperie, mais cela signifierait une perte de revenu qui pourrait avoir des conséquences sur votre qualité de vie",
+      "Choix 1": "Faire la promotion du produit",
+      "Choix 2":  "Y Renoncer"
     }
   ]
 }
