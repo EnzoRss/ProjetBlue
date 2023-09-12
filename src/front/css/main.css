@@ -64,7 +64,7 @@ body {
     color: white;
   }
   .name:hover {
-    border-bottom: 5px solid #0e3721;
+    border-bottom: 5px solid #1a40a8;
     height: 30px;
     width: 380px;
     transition: ease 0.5s;
@@ -89,7 +89,7 @@ body {
   }
   
   .message:hover {
-    border-bottom: 5px solid #0e3721;
+    border-bottom: 5px solid #1352c7;
     height: 12em;
     width: 380px;
     transition: ease 0.5s;
@@ -170,6 +170,10 @@ body {
     width: 60px; */
     background-color: #d1d8e6;
   }
+
+  #controller{
+    position: relative;
+  }
   #controller:hover{
 /*     border: #0e3750 2px solid; */
     border-radius: 5%;
@@ -204,3 +208,28 @@ color: #829ace;
     color: #16226b;
     opacity: 0.8;
   }
+  #effect{
+   margin: 2rem;
+  }
+
+
+
+ .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 105%;
+  }
+
+  .controller:hover .tooltiptext {
+  visibility: visible;
+}
