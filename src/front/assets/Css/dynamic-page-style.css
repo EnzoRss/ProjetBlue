@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.resume {
+    margin-top: 10vh;
+    height: 250px;
+    width: 80%;
+    border: black 1px solid;
+}
+
+.choices {
+    justify-content: space-between;
+    display: flex;
+    height: 120px;
+    width: 50%;
+}
+
+.choice1 {
+    border: black 1px solid;
+    width: 45%;
+}
+
+.choice2 {
+    border: black 1px solid;
+    width: 45%;
+}
+
+.header {
+    display: flex;
+    border: black solid 1px;
+    width: 90%;
+    justify-content: space-evenly;
+    height: 100px;
+}
+
+.header p {
+    margin: 0;
+    padding-top: 40px;
+    font-size: x-large;
+}
+
+.header img {
+    max-height: 60px;
+    width: auto;
+    padding-top: 30px;
+}
+
+.popularity {
+    width: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.money {
+    width: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    width: 35vh;
+}
+
+.name h2 {
+    margin: 0;
+    padding: 30px;
+}
