@@ -10,4 +10,4 @@ app.use(cors({
 
 app.use(routegames);
 
-app.listen(port,()=>console.log(`Server listening on port ${port}`));
+    app.listen(port,()=>console.log(`Server listening on port ${port}`));

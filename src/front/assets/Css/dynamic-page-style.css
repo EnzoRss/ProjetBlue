@@ -1,6 +1,10 @@
 body {
     margin: 0;
     padding: 0;
+    background-image: url("../img/start-bg.jpg") ;
+    backdrop-filter: blur(10px);
+    background-repeat : no-repeat;
+    background-size: 100% 100%;
 }
 
 .content {
@@ -13,10 +17,24 @@ body {
 }
 
 .resume {
+    background-color: #f8f9fa;
     margin-top: 10vh;
     height: 250px;
     width: 80%;
-    border: black 1px solid;
+    font-family: Montserrat, sans-serif;;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #000000;
+    padding: 40px;
+    box-shadow:
+            inset #0A0908 0 0 0 5px,
+            inset #0A0908 0 0 0 10px,
+            inset #22333B 0 0 0 16px,
+            inset #22333B 0 0 0 17px,
+            inset #EAE0D5 0 0 0 21px,
+            inset #EAE0D5 0 0 0 22px;
+    text-shadow: 3px 3px 1px #bfecf7;
 }
 
 .choices {
@@ -26,9 +44,41 @@ body {
     width: 50%;
 }
 
-.choice1 {
-    border: black 1px solid;
-    width: 45%;
+
+#choices1 {
+    position: relative;
+    width: 350px;
+    height: 150px;
+    background: #C6AC8F;
+    border-radius: 0 0 0 0 / 0 0 0 0 ;
+    color: white;
+    box-shadow: 20px 20px rgba(0,0,0,.30);
+    transition: all .4s ease;
+    border: #5E503F solid 4px;
+}
+
+#choices1:hover {
+    border: #5E503F solid 1px;
+    border-radius: 0 0 50% 50% / 0 0 5% 5% ;
+    box-shadow: 10px 10px rgba(0,0,0,.25);
+}
+
+#choices2 {
+    position: relative;
+    width: 350px;
+    height: 150px;
+    background: #C6AC8F;
+    border-radius: 0 0 0 0 / 0 0 0 0 ;
+    color: white;
+    box-shadow: 20px 20px rgba(0,0,0,.30);
+    transition: all .4s ease;
+    border: #5E503F solid 4px;
+}
+
+#choices2:hover {
+    border: #5E503F solid 1px;
+    border-radius: 0 0 50% 50% / 0 0 5% 5% ;
+    box-shadow: 10px 10px rgba(0,0,0,.25);
 }
 
 .choice2 {
@@ -38,10 +88,11 @@ body {
 
 .header {
     display: flex;
-    border: black solid 1px;
+    border: #22333B solid 5px;
     width: 90%;
     justify-content: space-evenly;
     height: 100px;
+    background-color: #C6AC8F;
 }
 
 .header p {
