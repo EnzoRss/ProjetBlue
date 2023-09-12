@@ -309,3 +309,7 @@ color: #829ace;
   [aria-label]:focus {
     outline: none;
   }
+
+  legend{
+    padding: 10px;
+  }
