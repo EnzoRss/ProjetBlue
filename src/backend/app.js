@@ -9,6 +9,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use("/s", express.static('../front'))
 
 request.Init()
-request.event(4)
+request.event(6)
+request.cons(6)
 
 app.listen(port,()=>console.log(`Server listening on port ${port}`));

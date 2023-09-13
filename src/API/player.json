@@ -1,22 +1,22 @@
 {
   "Rocket_League" :
   {
-   "username": "",
-    "popu" : "",
+   "username": "n ",
+    "popu" : " 0",
     "argent" : "100",
     "inventaire" : "Manette"
   },
   "Valorant" :
   {
-    "username" : "",
-    "popu" : "",
+    "username" : "n ",
+    "popu" : "0 ",
     "argent" : "500",
     "inventaire" : "ecran 360hz"
   },
   "Legeue_of_legends":
   {
-    "username": "",
-    "popu": "",
+    "username": " n",
+    "popu": " 0",
     "argent" : "1000",
     "inventaire" : "souris 12 bouton"
   }

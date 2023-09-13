@@ -61,7 +61,7 @@ body {
   
   .name {
     background-color: #ebebeb;
-    color: white;
+    color: rgb(53, 101, 121);
   }
   .name:hover {
     border-bottom: 5px solid #1a40a8;
