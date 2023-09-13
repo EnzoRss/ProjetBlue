@@ -13,34 +13,36 @@
 
                   <div class="popularity">
                       <img src="assets/img/popularity.png" alt="">
-                      <p>20</p>
+                      <p>{{:popu}}</p>
                   </div>
 
                   <div class="name">
-                      <h2>Abricot</h2>
+                      <h2>{{:player.username}}</h2>
                   </div>
 
                   <div class="money">
                       <img src="assets/img/money.png" alt="">
-                      <p>100</p>
+                      <p>{{:argent}}</p>
                   </div>
           </div>
 
         <div class="resume">
-            You can never crross the ocean <br>until you have the courage <br>to lose sight of the shore.
+            {{:Description}}
         </div>
 
         <div class="choices">
               <div id="choices1">
-
-                   </div>
+                    {{:choix1}}            
+              </div>
 
               <div id="choices2">
-
+                    {{:choix2}}
               </div>
         </div>
       </div>
 
+        
+        <script src="assets/Js/scripts.js"></script>
 </body>
 </html>
 

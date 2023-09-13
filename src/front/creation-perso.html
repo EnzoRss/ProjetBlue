@@ -16,103 +16,106 @@
 <body>
   <div class="wrapper">
     <form class="form" id="one" action="">
-      <div class="pageTitle title">Création Personnage </div>
-      <div class="secondaryTitle title">Veuillez compléter les champs pour créer le personnage</div>
-      <input type="text" class="name formEntry" placeholder="Nom du personnage "   required/>
-   
-      <fieldset id="one" aria-required="true">
 
 
-        <div class="radio-image">
-          <legend>Choisissez un objet qui vous aidera dans votre aventure:</legend>
-          <input type="radio" id="option1" name="options" value="1">
-          <label for="option1" class="picto-item" aria-label="vous commencez avec 100or">
-            <img  class="picto-item" src="./assets/img/controller.png" alt="Option 1">
-          </label>
-          <legend id="itemlegend"> manette </legend>
-        </div>
-         
-        <div class="radio-image">
-          <input type="radio" id="option2" name="options" value="2">
-          <label for="option2" class="picto-item" aria-label="vous commencez avec 500or">
-            <img  class="picto-item"  src="./assets/img/monitor.png" alt="Option 2">
-          </label>
-          <legend> Ecran 360Hz </legend>
-        </div>
+        <div class="pageTitle title">Création Personnage </div>
+        <div class="secondaryTitle title">Veuillez compléter les champs pour créer le personnage</div>
+        <input type="text" class="name formEntry" placeholder="Nom du personnage "   required/>
+
+        <fieldset id="one" aria-required="true">
+
+
           <div class="radio-image">
-            <input type="radio" id="option3" name="options" value="3">
-            <label for="option3" class="picto-item" aria-label="vous commencez avec 1000or">
-              <img  class="picto-item" src="./assets/img/mouse.png" alt="Option 2">
-          </label>
-          <legend> Souris 12 touches </legend>
-        </div>
-      </fieldset>
-      
+            <legend>Choisissez un objet qui vous aidera dans votre aventure:</legend>
+            <input type="radio" id="option1" name="options" value="1">
+            <label for="option1" class="picto-item" aria-label="vous commencez avec 100or">
+              <img  class="picto-item" src="./assets/img/controller.png" alt="Option 1">
+            </label>
+            <legend> id="itemlegend"> manette </legend>
+          </div>
 
-      <fieldset id="two">
-        <legend id ="title">Quel est votre jeu préféré ? </legend>
-      
-        <div>
-          <input   type="radio" id="valorant" name="item" value="valorant" checked />
-          <label  name="answers"for="huey">Valorant</label>
-        </div>
-      
-        <div>
-          <input    type="radio" id="rocketleague" name="item" value="rocketleague" />
-          <label  name="answers"for="dewey">Rocket League</label>
-        </div>
-      
-        <div>
-          <input    type="radio" id="lol" name="item" value="lol" />
-          <label  name="answers"for="louie">League Of Legends</label>
-        </div>
+          <div class="radio-image">
+            <input type="radio" id="option2" name="options" value="2">
+            <label for="option2" class="picto-item" aria-label="vous commencez avec 500or">
+              <img  class="picto-item"  src="./assets/img/monitor.png" alt="Option 2">
+            </label>
+            <legend> Ecran 360Hz </legend>
+          </div>
+            <div class="radio-image">
+              <input type="radio" id="option3" name="options" value="3">
+              <label for="option3" class="picto-item" aria-label="vous commencez avec 1000or">
+                <img  class="picto-item" src="./assets/img/mouse.png" alt="Option 2">
+            </label>
+            <legend> Souris 12 touches </legend>
+          </div>
+        </fieldset>
 
-        
-      </fieldset>
 
-      
-      <fieldset id="two">
-        <legend  name="answers id ="title">Quel est votre jeu préféré:</legend>
-      
-        <div>
-          <input type="radio" id="valorant" name="game" value="valorant" checked />
-          <label  name="answers"for="huey">Valorant</label>
-        </div>
-      
-        <div>
-          <input type="radio" id="rocketleague" name="game" value="rocketleague" />
-          <label name="answers" for="dewey">Rocket League</label>
-        </div>
-      
-        <div>
-          <input type="radio" id="lol" name="game" value="lol" />
-          <label name="answers "for="louie">League Of Legends</label>
-        </div>
-      </fieldset>
 
-          
-      <fieldset id="three">
-        <legend>Quel est votre jeu préféré:</legend>
-      
-        <div>
-          <input type="radio" id="valorant" name="question" value="valorant" checked />
-          <label name="answers" for="huey">Valorant</label>
-        </div>
-      
-        <div>
-          <input type="radio" id="rocketleague" name="question" value="rocketleague" />
-          <label  name="answers" for="dewey">Rocket League</label>
-        </div>
-      
-        <div>
-          <input type="radio" id="lol" name="question" value="lol" />
-          <label  name="answers" for="louie">League Of Legends</label>
-        </div>
-      </fieldset>
 
-      <button class="submit formEntry" type="submit">Submit</button>
+        <fieldset id="two">
+          <legend id ="title">Quel est votre jeu préféré ? </legend>
 
- 
+          <div>
+            <input   type="radio" id="valorant" name="item" value="valorant" checked />
+            <label  name="answers"for="huey">Valorant</label>
+          </div>
+
+          <div>
+            <input    type="radio" id="rocketleague" name="item" value="rocketleague" />
+            <label  name="answers"for="dewey">Rocket League</label>
+          </div>
+
+          <div>
+            <input    type="radio" id="lol" name="item" value="lol" />
+            <label  name="answers"for="louie">League Of Legends</label>
+          </div>
+
+
+        </fieldset>
+
+
+        <fieldset id="two">
+          <legend  name="answers id ="title">Quel est votre jeu préféré:</legend>
+
+          <div>
+            <input type="radio" id="valorant" name="game" value="valorant" checked />
+            <label  name="answers"for="huey">Valorant</label>
+          </div>
+
+          <div>
+            <input type="radio" id="rocketleague" name="game" value="rocketleague" />
+            <label name="answers" for="dewey">Rocket League</label>
+          </div>
+
+          <div>
+            <input type="radio" id="lol" name="game" value="lol" />
+            <label name="answers "for="louie">League Of Legends</label>
+          </div>
+        </fieldset>
+
+
+        <fieldset id="three">
+          <legend>Quel est votre jeu préféré:</legend>
+
+          <div>
+            <input type="radio" id="valorant" name="question" value="valorant" checked />
+            <label name="answers" for="huey">Valorant</label>
+          </div>
+
+          <div>
+            <input type="radio" id="rocketleague" name="question" value="rocketleague" />
+            <label  name="answers" for="dewey">Rocket League</label>
+          </div>
+
+          <div>
+            <input type="radio" id="lol" name="question" value="lol" />
+            <label  name="answers" for="louie">League Of Legends</label>
+          </div>
+        </fieldset>
+
+        <button class="submit formEntry" type="submit">Submit</button>
+
     </form>
   </div>
   <script src="app.js"></script>
