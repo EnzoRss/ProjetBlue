@@ -268,23 +268,23 @@ color: #829ace;
 
   
   .picto-item {
-    position: relative;  /*les .picto-item deviennent référents*/
+    position: relative; 
     cursor: pointer;
     border-radius: 50%;
   }
   
-  /* on génère un élément :after lors du survol et du focus :*/
+  
   
   .picto-item:hover:after,
   .picto-item:focus:after {
-    content: attr(aria-label);  /* on affiche aria-label */
+    content: attr(aria-label); 
     position: absolute;
     top: -2.4em;
     left: 50%;
-      transform: translateX(-17%); /* on centre horizontalement  */
+      transform: translateX(-105%); 
       
-    z-index: 1; /* pour s'afficher au dessus des éléments en position relative */
-    white-space: nowrap;  /* on interdit le retour à la ligne*/
+    z-index: 1; 
+    white-space: nowrap;  
     padding: 5px 14px;
     background: #413219;
     color: #fff;
@@ -292,7 +292,7 @@ color: #829ace;
     font-size: 1.2rem;
   }
   
-  /* on génère un second élément en :before pour la flèche */
+  
   
   [aria-label]:hover:before,
   [aria-label]:focus:before {
@@ -300,16 +300,32 @@ color: #829ace;
     position: absolute;
     top: -1em;
       left: 50%;
-      transform: translateX(-50%); /* on centre horizontalement  */
+      transform: translateX(-925%); 
     font-size: 20px;
     color: #413219;
   }
-  
-  /* pas de contour durant le :focus */
+
   [aria-label]:focus {
     outline: none;
   }
 
   legend{
     padding: 10px;
+  }
+
+
+  #controllertext{
+    margin: -3rem 5rem;
+  font-weight: lighter;
+  }
+
+  #screentext{
+    margin: -3rem 5rem;
+  font-weight: lighter;
+  }
+
+
+  #mousetext{
+      margin: -3rem 5rem;
+    font-weight: lighter;
   }
