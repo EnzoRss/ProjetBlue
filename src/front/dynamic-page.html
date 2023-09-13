@@ -30,7 +30,13 @@
           </div>
 
         <div class="resume">
-            {{:event.Description}}
+            {{if event.Description}} 
+            ( {{:event.Description}} )
+            {{else Consequence.choice1}}    
+            {{:Consequence.choice1}}
+            {{else Consequence.choice2}}
+            {{:Consequence.choice2}}
+            {{/if}}
         </div>
 
         <div class="choices">
