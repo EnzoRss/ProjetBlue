@@ -14,15 +14,19 @@ let Init = function init(nom, rep1, rep2, rep3) {
             return reponse.json();
         })
         .then(data => {
-            DataPlayer.PLayer = data.Player
-            DataPlayer.PLayer['username'] = nom
-            DataPlayer.PLayer['popu'] = Number(rep1) + Number(rep3) + Number(rep1)
+            DataPlayer.PLayer = data['Player']
+            DataPlayer.PLayer['username'] = nom;
+            DataPlayer.PLayer['popu'] = Number(rep1) + Number(rep3) + Number(rep1);
             Data.Data = DataPlayer
+            console.log(DataPlayer)
             fs.writeFile('data.json', JSON.stringify(Data), function (err) {
                 if (err) throw err;
                 console.log('Fichier créé !');
             });
-            fs.createReadStream('data.json').pipe(fs.createWriteStream('Player.json'));
+            fs.writeFile('./Player.json',JSON.stringify(DataPlayer),function (err) {
+                if (err) throw err;
+                console.log('contenue ajouter !');
+            });
         })
 }
 
@@ -62,7 +66,6 @@ let cons = function consquence(id){
                 //console.log(content);
             });
             data_cons.Consequence = data['Consequence'];
-            console.log(data_cons)
             Data.Data.conseqence = data_cons.Consequence
             /*console.log(Data.Data)*/
             fs.writeFile('./data.json',JSON.stringify(Data),function (err) {
