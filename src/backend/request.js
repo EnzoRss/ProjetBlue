@@ -1,7 +1,7 @@
 const fs = require('fs')
 const request = require("express");
 const {exists} = require("fs");
-let Data = {"Data": ""}
+let Data = {"Data": {"Player" : {},"event":{},"consequence" : {}}}
 
 let Init = function  init(nom, rep1, rep2, rep3)  {
     fs.writeFile('./data.json'," ",function (err) {
@@ -14,18 +14,12 @@ let Init = function  init(nom, rep1, rep2, rep3)  {
             return reponse.json();
         })
         .then(data => {
-            DataPlayer.PLayer = data['Player']
-            DataPlayer.PLayer['username'] = nom;
-            DataPlayer.PLayer['popu'] = Number(rep1) + Number(rep3) + Number(rep1);
-            Data.Data = DataPlayer
-            console.log(DataPlayer)
-            fs.writeFile('data.json', JSON.stringify(Data), function (err) {
+            Data.Data.Player = data['Player']
+            Data.Data.Player['username'] = nom;
+            Data.Data.Player['popu'] = Number(rep1) + Number(rep3) + Number(rep1);
+            fs.writeFile('./backend/data.json', JSON.stringify(Data), function (err) {
                 if (err) throw err;
                 console.log('Fichier créé !');
-            });
-            fs.writeFile('./Player.json',JSON.stringify(DataPlayer),function (err) {
-                if (err) throw err;
-                console.log('contenue ajouter !');
             });
             return DataPlayer
         })
@@ -33,50 +27,30 @@ let Init = function  init(nom, rep1, rep2, rep3)  {
 }
 
 let event = function event(id) {
-    let data_event ;
     fetch(`http://localhost:80/event/${id}`)
         .then(reponse => {
             return reponse.json()
         })
         .then(data => {
-            fs.readFile('./data.json', 'utf8', function (err, content) {
-                Data.Data = content;
-                //console.log(content);
-            });
-            data_event= data.Event
-            Data.Data.event = data_event
-            fs.writeFile('./data.json',JSON.stringify(Data),function (err) {
+            Data.Data.event = data['Event']
+            fs.writeFile('./backend/data.json',JSON.stringify(Data),function (err) {
                 if (err) throw err;
                 console.log('contenue ajouté !');
-            });
-            fs.writeFile('./event.json',JSON.stringify(data_event),function (err) {
-                if (err) throw err;
-                console.log('contenue ajouter !');
             });
         })
 }
 
-let cons = function consquence(id){
+let cons = function consquence(id,choix){
     let data_cons = {"Consequence":""}
-    fetch(`http://localhost:80/cons/${id}`)
+    fetch(`http://localhost:80/cons/${id}/${choix}`)
         .then(reponse =>{
             return reponse.json();
         })
         .then(data =>{
-            fs.readFile('./data.json', 'utf8', function (err, content) {
-                Data.Data = content;
-                //console.log(content);
-            });
-            data_cons.Consequence = data['Consequence'];
-            Data.Data.conseqence = data_cons.Consequence
-            /*console.log(Data.Data)*/
-            fs.writeFile('./data.json',JSON.stringify(Data),function (err) {
+            Data.Data.conseqence  = data['Consequence'];
+            fs.writeFile('./backend/data.json',JSON.stringify(Data),function (err) {
                 if (err) throw err;
                 console.log('contenue ajouté !');
-            });
-            fs.writeFile('./consequence.json',JSON.stringify(data_cons),function (err) {
-                if (err) throw err;
-                console.log('contenue ajouter !');
             });
         })
 }

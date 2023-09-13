@@ -15,16 +15,36 @@ app.engine('html', render.__express); // Set JsRender as template engine for .ht
 app.set('view engine', 'html');
 app.set('views',path); // Folder location for JsRender templates for Express
 
-
-app.use("/test",function (req, res, ) {
-    let data
+let list_event= []
+let nbr_tour = 0
+let data = {Data :{},type : ""}
+app.get("/test",function (req, res, ) {
+    let type ;
+    if (nbr_tour === 0){
+        request.Init("nzo","40","20",(-30))
+    }
+    let nb_event =Math.floor(Math.random() * (9 - 1) +1)
+    list_event.push()
+    console.log(nb_event)
+    if (nbr_tour % 2 === 0){
+        type = "event"
+        console.log("ajout event")
+        request.event(2)
+    } else{
+        type = "consequence"
+        request.cons(id,choix)
+    }
+    console.log(data)
     fs.readFile('./backend/data.json', 'utf8', function (err, content) {
-        data = content;
-        //console.log(content);
-        let test =JSON.parse(data)
-        console.log(test.Data)
+        data.Data = content;
+        console
+        data.type = type
+        console.log("data : "+ data )
+        let test =JSON.parse(data.Data) + data.type-
+        console.log(test)
         res.render('dynamic-page.html',test.Data)
     });
+
 })
 
 

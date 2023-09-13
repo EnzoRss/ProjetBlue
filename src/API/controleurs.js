@@ -22,6 +22,7 @@ exports.getplayerdata = (req,res) =>{
 exports.getEventData =(req,res) => {
     const id =parseInt(req.params.id)
     const event = data_event.event[`${id}`]
+    console.log(event)
 
     if(!event) {
         return res.status(404).send("event non trouver");
@@ -35,7 +36,13 @@ exports.getEventData =(req,res) => {
 
 exports.getConsData=(req,res)=>{
     const id = req.params.id;
-    const conse = data_conse.Consequences[`${id}`];
+    let choix = req.params['choix'];
+    if (choix === '1'){
+        choix = "choix_1"
+    }else{
+        choix = "choix_2"
+    }
+    const conse = data_conse.Consequences[`${id}`][`${choix}`];
     if(!conse) {
         return res.status(404).send("conséqence non trouver");
     } else {
