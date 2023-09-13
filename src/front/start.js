@@ -12,7 +12,7 @@ if (item1.clicked == true){
     console.log("dgfhdt")
 }
 item1.addEventListener('click',function(e){
-    console.log('yo')
+  
     count1 = count1 +1
     item1text.style.color = "blue"
   
@@ -33,7 +33,7 @@ item1.addEventListener('click',function(e){
 }) 
 
 item2.addEventListener('click',function(e){
-    console.log('yo')
+  
     count1 = count1 +1
     item2text.style.color = "blue"
   
@@ -55,7 +55,7 @@ item2.addEventListener('click',function(e){
 }) 
 
 item3.addEventListener('click',function(e){
-    console.log('yo')
+
     count1 = count1 +1
     item3text.style.color = "blue"
   
