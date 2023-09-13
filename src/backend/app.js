@@ -6,12 +6,14 @@ const port= 443;
 let request =require("./request.js");
 let render = require('jsrender')
 const fs = require('fs')
+const path = process.cwd()+"/front"
 
+app.use(express.static(path))
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use("/s", express.static('../front'))
 app.engine('html', render.__express); // Set JsRender as template engine for .html files
 app.set('view engine', 'html');
-app.set('views',process.cwd()+"/front"); // Folder location for JsRender templates for Express
+app.set('views',path); // Folder location for JsRender templates for Express
 
 
 app.use("/test",function (req, res, ) {

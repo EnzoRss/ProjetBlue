@@ -57,6 +57,26 @@ body {
     border: #5E503F solid 4px;
 }
 
+#choices1 p {
+    margin: 20px;
+    color: #0A0908;
+    font-family: 'Dosis', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+#choices2 p {
+    font-family: 'Dosis', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
+
+
+    margin: 20px;
+    color: #0A0908;
+}
+
 #choices1:hover {
     border: #5E503F solid 1px;
     border-radius: 0 0 50% 50% / 0 0 5% 5% ;
@@ -111,21 +131,41 @@ body {
     width: 30vh;
     display: flex;
     justify-content: space-evenly;
+    font-family: 'Dosis', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
+
+
 }
 
 .money {
     width: 30vh;
     display: flex;
     justify-content: space-evenly;
+    font-family: 'Dosis', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
+
+
 }
 
 .name {
     display: flex;
     justify-content: center;
     width: 35vh;
+    font-family: 'Dosis', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
+
+
 }
 
 .name h2 {
     margin: 0;
     padding: 30px;
+    font-family: 'Dosis', sans-serif;
+
+    font-family: 'Poppins', sans-serif;
+
+
 }
