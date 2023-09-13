@@ -1,5 +1,5 @@
 const data_event = require("./event.json")
-const data_player= require("./player.json")
+const data_player= require("./game.json")
 const data_conse = require('./event-consequences.json')
 const e = require("express");
 
