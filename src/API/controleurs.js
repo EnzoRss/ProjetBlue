@@ -1,5 +1,6 @@
 const data_event = require("./event.json")
 const data_player= require("./player.json")
+const data_conse = require('./event-consequences.json')
 const e = require("express");
 
 
@@ -34,3 +35,16 @@ exports.getEventData =(req,res) => {
     }
 }
 
+exports.getConsData=(req,res)=>{
+    const id = req.params.id;
+    const conse = data_conse.Consequences[`${id}`];
+    console.log(conse)
+    if(!conse) {
+        return res.status(404).send("conséqence non trouver");
+    } else {
+        res.status(200).json({
+            message: "conséqence trouver",
+            Consequence : conse
+        });
+    }
+}

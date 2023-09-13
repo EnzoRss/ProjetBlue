@@ -1,94 +1,101 @@
 {
-    "consequences":[  {
-
-        "event1":{
-            "choix1":{
-                "text":"En décidant de passer votre soirée en boîte plutôt que de participer à la compétition, vous avez opté pour une nuit de divertissement plutôt que pour une victoire potentielle. Sortir en boîte a engendré des dépenses supplémentaires, qu'il s'agisse de frais d'entrée, de boissons ou de transports. Vous avez également raté l'opportunité de gagner la compétition et de récolter les gains qui l'accompagnent. Cependant, cette décision peut vous permettre de vous détendre, de socialiser et de profiter de votre soirée d'une manière différente. Parfois, il est essentiel de trouver un équilibre entre la compétition et la vie sociale pour maintenir votre bien-être mental",
-                "or":-50,
-                "popu:":2},
-            "choix2":{ 
-                "text" :"En décidant de consacrer votre soirée à l'entraînement plutôt que de sortir en boîte, vous avez fait preuve de détermination et de discipline. Votre choix de travailler dur en vue de la compétition a porté ses fruits. Vous avez non seulement remporté la victoire, mais également gagné de la réputation en tant que concurrent sérieux et compétent. Cette victoire vous a également valu un prix considérable, récompensant vos efforts et votre dévouement. Bien que vous ayez manqué une soirée de divertissement en boîte, votre décision vous a apporté des gains bien plus importants sur le plan professionnel et personnel, renforçant ainsi votre réputation dans le domaine de la compétition  et faisant de vous le champion incontesté au niveau mondial  de votre domaine accroissant de manière considérable votre prestige "},
-                "or":550,
-                "popu:":200
-        },
-       "event2" :{
-        "choix1" :{ "text": "Après avoir choisi de tricher lors du match qui ne vous a pas permis de gagner, les conséquences commencent à se faire sentir. Votre décision d'enfreindre les règles du e-sport a rapidement attiré l'attention et la désapprobation de vos pairs, entraînant une perte totale de votre réputation dans le monde du e-sport. Les médias du milieux  vous qualifient de tricheur notoire, et vos sponsors vous tournent le dos les uns après les autres. Votre nom est maintenant synonyme de malhonnêteté, et votre carrière sportive est en ruines. Les opportunités de participer à d'autres compétitions s'amenuisent, et vous devez faire face à des sanctions sévères imposées par l'instance dirigeante du e-sport. La tricherie, bien qu'elle ait pu sembler être une solution rapide pour gagner, a eu un coût élevé.La route vers la rédemption s'annonce difficile",
-        "or": 150,
-        "popu:":-150
+  "Consequences": {
+    "1": {
+      "choix1": {
+        "text": "En décidant de passer votre soirée en boîte plutôt que de participer à la compétition, vous avez opté pour une nuit de divertissement plutôt que pour une victoire potentielle. Sortir en boîte a engendré des dépenses supplémentaires, qu'il s'agisse de frais d'entrée, de boissons ou de transports. Vous avez également raté l'opportunité de gagner la compétition et de récolter les gains qui l'accompagnent. Cependant, cette décision peut vous permettre de vous détendre, de socialiser et de profiter de votre soirée d'une manière différente. Parfois, il est essentiel de trouver un équilibre entre la compétition et la vie sociale pour maintenir votre bien-être mental",
+        "or": -50,
+        "popu:": 2
+      },
+      "choix2": {
+        "text": "En décidant de consacrer votre soirée à l'entraînement plutôt que de sortir en boîte, vous avez fait preuve de détermination et de discipline. Votre choix de travailler dur en vue de la compétition a porté ses fruits. Vous avez non seulement remporté la victoire, mais également gagné de la réputation en tant que concurrent sérieux et compétent. Cette victoire vous a également valu un prix considérable, récompensant vos efforts et votre dévouement. Bien que vous ayez manqué une soirée de divertissement en boîte, votre décision vous a apporté des gains bien plus importants sur le plan professionnel et personnel, renforçant ainsi votre réputation dans le domaine de la compétition  et faisant de vous le champion incontesté au niveau mondial  de votre domaine accroissant de manière considérable votre prestige "
+      },
+      "or": 550,
+      "popu:": 200
     },
-        "choix2" :{ "text": "En optant pour l'honnêteté et en refusant de tricher lors du match, vous avez pris une décision qui allait façonner votre avenir de manière positive. Votre intégrité est restée intacte, et votre performance sportive est devenue le reflet de votre talent véritable. Votre équipe n'a pas gagné  mais elle a bien performé , suscitant l'admiration des fans et des médias pour votre fair-play, votre succès attire de nouveaux sponsors et opportunités lucratives. Votre carrière sportive est en plein essor. Votre choix de rester fidèle à vos valeurs a non seulement renforcé votre réputation, mais il vous a également permis de gagner de l'argent grâce à des opportunités légitimes",
-        "or":50,
-        "popu:":20   
+    "2": {
+      "choix1": {
+        "text": "Après avoir choisi de tricher lors du match qui ne vous a pas permis de gagner, les conséquences commencent à se faire sentir. Votre décision d'enfreindre les règles du e-sport a rapidement attiré l'attention et la désapprobation de vos pairs, entraînant une perte totale de votre réputation dans le monde du e-sport. Les médias du milieux  vous qualifient de tricheur notoire, et vos sponsors vous tournent le dos les uns après les autres. Votre nom est maintenant synonyme de malhonnêteté, et votre carrière sportive est en ruines. Les opportunités de participer à d'autres compétitions s'amenuisent, et vous devez faire face à des sanctions sévères imposées par l'instance dirigeante du e-sport. La tricherie, bien qu'elle ait pu sembler être une solution rapide pour gagner, a eu un coût élevé.La route vers la rédemption s'annonce difficile",
+        "or": 150,
+        "popu:": -150
+      },
+      "choix2": {
+        "text": "En optant pour l'honnêteté et en refusant de tricher lors du match, vous avez pris une décision qui allait façonner votre avenir de manière positive. Votre intégrité est restée intacte, et votre performance sportive est devenue le reflet de votre talent véritable. Votre équipe n'a pas gagné  mais elle a bien performé , suscitant l'admiration des fans et des médias pour votre fair-play, votre succès attire de nouveaux sponsors et opportunités lucratives. Votre carrière sportive est en plein essor. Votre choix de rester fidèle à vos valeurs a non seulement renforcé votre réputation, mais il vous a également permis de gagner de l'argent grâce à des opportunités légitimes",
+        "or": 50,
+        "popu:": 20
+      }
+    },
+    "3": {
+      "choix1": {
+        "text": "En décidant de refuser l'offre de votre ami de vous doper, vous avez pris une décision qui maintient votre intégrité. Vous restez dans la course sans recourir à des produits dopants. Bien que cela n'ait pas amélioré votre situation financière ni augmenté votre réputation, vous avez choisi de suivre la voie de l'éthique sportive. Vous pouvez être fier de votre décision de ne pas tricher, même si elle ne vous a pas rapporté d'argent supplémentaire ni de gloire immédiate. Le respect de vos pairs et votre conscience personnelle restent intacts, ce qui peut s'avérer inestimable à long terme",
+        "or": 0,
+        "popu:": 20
+      },
+      "choix2": {
+        "text": " En cédant à la tentation de vous doper pour améliorer vos performances lors du match, vous avez pris un risque considérable. Tout d'abord, cette décision a eu un impact financier important, car vous avez dû dépenser une somme conséquente pour acquérir les produits dopants. Cela a entamé vos économies et mis en danger votre stabilité financière à long terme. Cependant, sur le terrain, les résultats étaient évidents. Votre performance a été exceptionnelle, et vous avez mené votre équipe à la victoire, ce qui vous a valu une gratification immédiate et le respect momentané des supporters. De plus votre ami sulfureux  n'est pas connu pour sa capacité à ne pas ébruiter des secrets et il semblerait qu'il soit à l'origine de rumeurs  grandissantes vous décrivant comme quelqu'un de malhonnète, vous mettant dans une situation délicate",
+        "or": 100,
+        "popu:": -120
+      }
+    },
+    "4": {
+      "choix1": {
+        "text": "La tentation de visiter l'événement spécial de votre jeu préféré était grande, malgré les frais d'entrée substantiels. Vous saviez que cela aurait un impact sur votre portefeuille, mais l'opportunité de vivre une expérience unique était trop séduisante pour être ignorée. Une fois à l'événement, vous avez eu la chance de croiser l'un de vos abonnés les plus fidèles, ce qui a renforcé votre connexion avec votre communauté de fans. Vous avez partagé des moments mémorables et pris des photos avec vos followers, ce qui a renforcé votre image de streamer accessible et attentionné.Cependant, les dépenses que vous avez engagées pour cette expérience exceptionnelle ont été considérables, et elles ont eu un impact sur vos finances personnelles. Vous avez dû faire face à des contraintes budgétaires pendant un certain temps pour compenser ces dépenses. Cependant, en termes de réputation, cette décision s'est avérée bénéfique. Vos abonnés ont apprécié votre engagement envers eux, et cela s'est traduit par une augmentation de votre nombre de followers et une plus grande fidélité de votre communauté. Vous avez peut-être perdu de l'argent, mais vous avez gagné quelque chose de bien plus précieux : la confiance et l'admiration de vos fans.",
+        "or": -150,
+        "popu:": 300
+      },
+      "choix2": {
+        "text": "En décidant de ne pas assister à l'événement spécial de votre jeu préféré, vous avez choisi de respecter vos obligations actuelles et de rester concentré sur vos tâches prévues. Votre décision a eu peu d'impact sur votre journée, car vous avez accompli avec succès ce que vous aviez planifié. Vous n'avez pas perdu d'argent ni gagné de réputation, mais vous avez maintenu votre routine quotidienne de manière efficace. Bien que vous ayez manqué une opportunité de divertissement, votre choix vous a permis de rester sur la bonne voie pour atteindre vos objectifs et responsabilités actuelles",
+        "or": 0,
+        "popu:": 0
+      }
+    },
+    "5": {
+      "choix1": {
+        "text": "En faisant le choix éthique de verser l'argent du don à l'association caritative comme prévu, vous avez pris la décision honorable. Votre geste a été perçu comme un acte de générosité et de soutien envers une cause importante. L'association a été profondément reconnaissante de votre contribution, et cela a renforcé votre réputation en tant que personne altruiste et engagée. Votre bonne action n'est pas passée inaperçue, et de nombreuses personnes vous ont félicité pour votre choix responsable. Vous avez également inspiré d'autres à faire preuve de générosité, ce qui a contribué à une cause noble. En fin de compte, vous avez gagné à la fois en réputation et en satisfaction personnelle en agissant de manière désintéressée",
+        "or": 0,
+        "popu:": 250
+      },
+      "choix2": {
+        "text": "En succombant à la tentation de détourner l'argent destiné à une association caritative, vous avez pris un risque considérable. Malheureusement, votre acte n'est pas resté secret bien longtemps, et bientôt, la vérité a éclaté au grand jour. Votre comportement égoïste a été découvert, ce qui a eu des répercussions dévastatrices sur votre réputation. Vous avez perdu la confiance de nombreuses personnes qui vous considéraient autrefois comme quelqu'un de fiable et digne de confiance. Cette trahison a eu un coût important en matière de réputation, et même si vous avez gardé l'argent, cela n'a pas compensé les pertes sociales que vous avez subies.",
+        "or": 300,
+        "popu:": -280
+      }
+    },
+    "6": {
+      "choix1": {
+        "text": "En choisissant de dire ce que vous pensiez vraiment lors du stream, vous avez opté pour l'honnêteté, mais cela a eu des répercussions sur votre audience. Certaines de vos opinions ont pu choquer ou déplaire à une partie de vos viewers, ce qui a entraîné une perte temporaire de spectateurs. Votre auditoire s'est scindé en deux, avec ceux qui partageaient vos opinions et ceux qui les trouvaient offensantes ou controversées. Bien que vous ayez maintenu votre intégrité en exprimant vos convictions, il est important de noter que cela a eu un impact sur la taille de votre audience. Cependant, ceux qui sont restés étaient souvent des spectateurs plus engagés et loyaux, appréciant votre authenticité. Cette décision a également déclenché des discussions animées parmi vos fans et a contribué à renforcer la communauté de votre stream. Vous avez montré que vous étiez prêt à rester fidèle à vous-même, même au prix de la popularité à court terme",
+        "or": 0,
+        "popu:": -100
+      },
+      "choix2": {
+        "text": "En choisissant de mentir lors du stream, vous avez réussi à maintenir votre audience actuelle sans en perdre. Vos mensonges habiles ont été bien accueillis par une partie de vos viewers, qui ont été divertis par votre performance. Cependant, à long terme, cette stratégie peut s'avérer risquée. Les mensonges peuvent être découverts, ce qui pourrait compromettre votre crédibilité et la confiance de votre public. De plus, cela pourrait créer un climat de méfiance parmi vos spectateurs, ce qui peut nuire à la construction d'une communauté solide et engagée. Bien que vous ayez évité une perte immédiate de viewers en étant moins transparent, cette décision pourrait avoir des conséquences imprévues sur la confiance et la fidélité de votre audience à l'avenir",
+        "or": 0,
+        "popu:": -100
+      }
+    },
+    "7": {
+      "choix1": {
+        "text": "En acceptant de faire le placement de produit pour un article défectueux, vous avez gagné de l'argent rapidement, ce qui a pu améliorer temporairement votre situation financière. Cependant, votre décision a eu des conséquences sur votre réputation. Le fait que vous ayez associé votre nom à un produit de mauvaise qualité s'est rapidement ébruité, et cela a nui à votre image publique. Vos followers et abonnés sur les réseaux sociaux ont exprimé leur déception et leur perte de confiance envers vous. Vous devez désormais travailler dur pour restaurer votre réputation, ce qui peut prendre du temps et nécessiter des efforts considérables. Vous avez peut-être gagné de l'argent, mais vous avez payé le prix en termes de réputation et de confiance de votre public",
+        "or": 300,
+        "popu:": -300
+      },
+      "choix2": {
+        "text": "En refusant de faire le placement de produit pour un article défectueux, vous avez maintenu votre intégrité personnelle et évité d'associer votre nom à un produit de mauvaise qualité. Cependant, cette décision a un coût financier. Vous perdez de l'argent en raison du coût de la vie élevé, ce qui peut avoir un impact sur vos finances personnelles. Bien que votre réputation reste intacte, il vous faudra peut-être chercher d'autres moyens de compenser la perte financière, que ce soit en travaillant plus dur, en cherchant de nouvelles opportunités ou en gérant vos dépenses de manière plus prudente. Votre décision reflète votre intégrité, mais elle n'est pas sans sacrifice financier",
+        "or": -100,
+        "popu:": 0
+      }
+    },
+    "8": {
+      "choix1": {
+        "text": "En choisissant de faire des micro-transactions ou d'ouvrir plus de 10 caisses, vous avez dépensé une somme considérable d'argent dans le jeu. Malheureusement, cela ne vous a pas apporté les récompenses escomptées. Au lieu de cela, vous avez essentiellement jeté votre argent par la fenêtre, sans aucun gain significatif en retour. Cette décision peut vous laisser avec des regrets quant à vos dépenses impulsives.",
+        "or": -200,
+        "popu:": 0
+      },
+      "choix2": {
+        "text": "En optant pour l'ouverture de trois caisses, vous avez fait preuve de prudence tout en maintenant un niveau d'excitation élevé. À votre grande surprise, vous avez non seulement obtenu des objets de grande valeur, mais également gagné de l'argent en vendant certains d'entre eux sur le marché virtuel. Cette série de bonnes décisions a renforcé votre réputation en tant que joueur compétent, attirant l'attention de la communauté. Vous êtes désormais reconnu comme un joueur avisé et chanceux",
+        "or": 100,
+        "popu:": 50
+      }
     }
-        
-       },
-       "event3":{
-        "choix1" :{ "text":"En décidant de refuser l'offre de votre ami de vous doper, vous avez pris une décision qui maintient votre intégrité. Vous restez dans la course sans recourir à des produits dopants. Bien que cela n'ait pas amélioré votre situation financière ni augmenté votre réputation, vous avez choisi de suivre la voie de l'éthique sportive. Vous pouvez être fier de votre décision de ne pas tricher, même si elle ne vous a pas rapporté d'argent supplémentaire ni de gloire immédiate. Le respect de vos pairs et votre conscience personnelle restent intacts, ce qui peut s'avérer inestimable à long terme"    ,
-        "or":0,
-        "popu:":20   
-    }, 
-        "choix2" :{ "text":" En cédant à la tentation de vous doper pour améliorer vos performances lors du match, vous avez pris un risque considérable. Tout d'abord, cette décision a eu un impact financier important, car vous avez dû dépenser une somme conséquente pour acquérir les produits dopants. Cela a entamé vos économies et mis en danger votre stabilité financière à long terme. Cependant, sur le terrain, les résultats étaient évidents. Votre performance a été exceptionnelle, et vous avez mené votre équipe à la victoire, ce qui vous a valu une gratification immédiate et le respect momentané des supporters. De plus votre ami sulfureux  n'est pas connu pour sa capacité à ne pas ébruiter des secrets et il semblerait qu'il soit à l'origine de rumeurs  grandissantes vous décrivant comme quelqu'un de malhonnète, vous mettant dans une situation délicate",
-        "or":100,
-        "popu:":-120   
-    }
-       
-        
-
-       },
-        "event4":{
-            "choix1":{ "text":"La tentation de visiter l'événement spécial de votre jeu préféré était grande, malgré les frais d'entrée substantiels. Vous saviez que cela aurait un impact sur votre portefeuille, mais l'opportunité de vivre une expérience unique était trop séduisante pour être ignorée. Une fois à l'événement, vous avez eu la chance de croiser l'un de vos abonnés les plus fidèles, ce qui a renforcé votre connexion avec votre communauté de fans. Vous avez partagé des moments mémorables et pris des photos avec vos followers, ce qui a renforcé votre image de streamer accessible et attentionné.Cependant, les dépenses que vous avez engagées pour cette expérience exceptionnelle ont été considérables, et elles ont eu un impact sur vos finances personnelles. Vous avez dû faire face à des contraintes budgétaires pendant un certain temps pour compenser ces dépenses. Cependant, en termes de réputation, cette décision s'est avérée bénéfique. Vos abonnés ont apprécié votre engagement envers eux, et cela s'est traduit par une augmentation de votre nombre de followers et une plus grande fidélité de votre communauté. Vous avez peut-être perdu de l'argent, mais vous avez gagné quelque chose de bien plus précieux : la confiance et l'admiration de vos fans.",
-            "or":-150,
-            "popu:":300    },
-
-            "choix2":{ "text" :"En décidant de ne pas assister à l'événement spécial de votre jeu préféré, vous avez choisi de respecter vos obligations actuelles et de rester concentré sur vos tâches prévues. Votre décision a eu peu d'impact sur votre journée, car vous avez accompli avec succès ce que vous aviez planifié. Vous n'avez pas perdu d'argent ni gagné de réputation, mais vous avez maintenu votre routine quotidienne de manière efficace. Bien que vous ayez manqué une opportunité de divertissement, votre choix vous a permis de rester sur la bonne voie pour atteindre vos objectifs et responsabilités actuelles",
-            "or":0,
-            "popu:":0
-        }
-            
-       },
-        "event5":{
-            "choix1":{"text":"En faisant le choix éthique de verser l'argent du don à l'association caritative comme prévu, vous avez pris la décision honorable. Votre geste a été perçu comme un acte de générosité et de soutien envers une cause importante. L'association a été profondément reconnaissante de votre contribution, et cela a renforcé votre réputation en tant que personne altruiste et engagée. Votre bonne action n'est pas passée inaperçue, et de nombreuses personnes vous ont félicité pour votre choix responsable. Vous avez également inspiré d'autres à faire preuve de générosité, ce qui a contribué à une cause noble. En fin de compte, vous avez gagné à la fois en réputation et en satisfaction personnelle en agissant de manière désintéressée",
-            "or":0,
-            "popu:":250
-        },
-            "choix2":{"text":"En succombant à la tentation de détourner l'argent destiné à une association caritative, vous avez pris un risque considérable. Malheureusement, votre acte n'est pas resté secret bien longtemps, et bientôt, la vérité a éclaté au grand jour. Votre comportement égoïste a été découvert, ce qui a eu des répercussions dévastatrices sur votre réputation. Vous avez perdu la confiance de nombreuses personnes qui vous considéraient autrefois comme quelqu'un de fiable et digne de confiance. Cette trahison a eu un coût important en matière de réputation, et même si vous avez gardé l'argent, cela n'a pas compensé les pertes sociales que vous avez subies.",
-            "or":300,
-            "popu:":-280
-        }
-        },
-        "event6":{
-            "choix1":{"text":"En choisissant de dire ce que vous pensiez vraiment lors du stream, vous avez opté pour l'honnêteté, mais cela a eu des répercussions sur votre audience. Certaines de vos opinions ont pu choquer ou déplaire à une partie de vos viewers, ce qui a entraîné une perte temporaire de spectateurs. Votre auditoire s'est scindé en deux, avec ceux qui partageaient vos opinions et ceux qui les trouvaient offensantes ou controversées. Bien que vous ayez maintenu votre intégrité en exprimant vos convictions, il est important de noter que cela a eu un impact sur la taille de votre audience. Cependant, ceux qui sont restés étaient souvent des spectateurs plus engagés et loyaux, appréciant votre authenticité. Cette décision a également déclenché des discussions animées parmi vos fans et a contribué à renforcer la communauté de votre stream. Vous avez montré que vous étiez prêt à rester fidèle à vous-même, même au prix de la popularité à court terme",
-            "or":0,
-            "popu:":-100
-        },
-            "choix2":{"text":"En choisissant de mentir lors du stream, vous avez réussi à maintenir votre audience actuelle sans en perdre. Vos mensonges habiles ont été bien accueillis par une partie de vos viewers, qui ont été divertis par votre performance. Cependant, à long terme, cette stratégie peut s'avérer risquée. Les mensonges peuvent être découverts, ce qui pourrait compromettre votre crédibilité et la confiance de votre public. De plus, cela pourrait créer un climat de méfiance parmi vos spectateurs, ce qui peut nuire à la construction d'une communauté solide et engagée. Bien que vous ayez évité une perte immédiate de viewers en étant moins transparent, cette décision pourrait avoir des conséquences imprévues sur la confiance et la fidélité de votre audience à l'avenir",
-            "or":0,
-            "popu:":-100
-        }
-        },
-        
-            "event7":{
-                "choix1":{"text":"En acceptant de faire le placement de produit pour un article défectueux, vous avez gagné de l'argent rapidement, ce qui a pu améliorer temporairement votre situation financière. Cependant, votre décision a eu des conséquences sur votre réputation. Le fait que vous ayez associé votre nom à un produit de mauvaise qualité s'est rapidement ébruité, et cela a nui à votre image publique. Vos followers et abonnés sur les réseaux sociaux ont exprimé leur déception et leur perte de confiance envers vous. Vous devez désormais travailler dur pour restaurer votre réputation, ce qui peut prendre du temps et nécessiter des efforts considérables. Vous avez peut-être gagné de l'argent, mais vous avez payé le prix en termes de réputation et de confiance de votre public",
-                "or":300,
-                "popu:":-300
-            },
-                "choix2":{ "text": "En refusant de faire le placement de produit pour un article défectueux, vous avez maintenu votre intégrité personnelle et évité d'associer votre nom à un produit de mauvaise qualité. Cependant, cette décision a un coût financier. Vous perdez de l'argent en raison du coût de la vie élevé, ce qui peut avoir un impact sur vos finances personnelles. Bien que votre réputation reste intacte, il vous faudra peut-être chercher d'autres moyens de compenser la perte financière, que ce soit en travaillant plus dur, en cherchant de nouvelles opportunités ou en gérant vos dépenses de manière plus prudente. Votre décision reflète votre intégrité, mais elle n'est pas sans sacrifice financier",
-                "or":-100,
-                "popu:":0
-            }
-        },
-           "event8": {
-            "choix1":{ "text":"En choisissant de faire des micro-transactions ou d'ouvrir plus de 10 caisses, vous avez dépensé une somme considérable d'argent dans le jeu. Malheureusement, cela ne vous a pas apporté les récompenses escomptées. Au lieu de cela, vous avez essentiellement jeté votre argent par la fenêtre, sans aucun gain significatif en retour. Cette décision peut vous laisser avec des regrets quant à vos dépenses impulsives.",
-            "or":-200,
-            "popu:":0
-        },
-            "choix2": { "text":"En optant pour l'ouverture de trois caisses, vous avez fait preuve de prudence tout en maintenant un niveau d'excitation élevé. À votre grande surprise, vous avez non seulement obtenu des objets de grande valeur, mais également gagné de l'argent en vendant certains d'entre eux sur le marché virtuel. Cette série de bonnes décisions a renforcé votre réputation en tant que joueur compétent, attirant l'attention de la communauté. Vous êtes désormais reconnu comme un joueur avisé et chanceux",
-            "or":100,
-            "popu:":50
-        }
-           }
-        
-       
-   } 
-]
+  }
 }
+
