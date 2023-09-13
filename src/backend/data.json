@@ -1,7 +1,8 @@
 {
   "Data": {
     "Player": {
-      "popu": null,
+      "username" : "axel",
+      "popu": "1",
       "argent": "100",
       "inventaire": "Manette"
     },
