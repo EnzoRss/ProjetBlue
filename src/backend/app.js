@@ -18,15 +18,13 @@ app.set('views',path); // Folder location for JsRender templates for Express
 
 app.use("/test",function (req, res, ) {
     let data
-    fs.readFile('./backend/Player.json', 'utf8', function (err, content) {
+    fs.readFile('./backend/data.json', 'utf8', function (err, content) {
         data = content;
         //console.log(content);
         let test =JSON.parse(data)
-        console.log(test)
-        res.render('dynamic-page.html',test)
+        console.log(test.Data)
+        res.render('dynamic-page.html',test.Data)
     });
-
-
 })
 
 
