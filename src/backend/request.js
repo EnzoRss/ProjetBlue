@@ -3,7 +3,7 @@ const request = require("express");
 const {exists} = require("fs");
 let Data = {"Data": ""}
 
-let Init = function init(nom, rep1, rep2, rep3) {
+let Init = function  init(nom, rep1, rep2, rep3)  {
     fs.writeFile('./data.json'," ",function (err) {
         if (err) throw err;
         console.log('contenue effacé !');
@@ -27,7 +27,9 @@ let Init = function init(nom, rep1, rep2, rep3) {
                 if (err) throw err;
                 console.log('contenue ajouter !');
             });
+            return DataPlayer
         })
+    return DataPlayer
 }
 
 let event = function event(id) {
