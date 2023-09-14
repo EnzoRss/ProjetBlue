@@ -52,10 +52,6 @@
             <h2>{{:Data.Data.Player.username}}</h2>
         </div>
 
-<<<<<<< HEAD
-        <script src="assets/Js/scripts.js"></script>
-        <script src="assets/Js/shop.js"></script>
-=======
         <div class="money">
             <img src="assets/img/money.png" alt="">
             <p>{{:Data.Data.Player.argent}}</p>
@@ -65,7 +61,7 @@
     <div class="resume">
         {{if Data.type="event"}}
         ( {{:Data.Data.event.Description}} )
-        {{else Data.consequence="consequence"}}
+        {{else Data.type="consequence"}}
         ( {{:Data.Data.event.consequence}} )
         {{/if}}
 
@@ -87,7 +83,7 @@
             </button>
         </form>
         )
-        {{else Data.consequence="consequence"}} (
+        {{else Data.type="consequence"}} (
         <form method="post">
             <button id="netxevent" type="submit"  ><p> Event suivant </p></button>
         </form>
@@ -97,6 +93,5 @@
 </div>
 <script src="assets/Js/scripts.js"></script>
 <script src="assets/Js/shop.js"></script>
->>>>>>> b7c481f7f8efe7779d99a19df34e0353bf4f081b
 </body>
 </html> 

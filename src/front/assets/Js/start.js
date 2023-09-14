@@ -78,21 +78,19 @@ item3.addEventListener('click',function(e){
 
 
 function validerEtFormaterNom() {
-  const inputElement = document.getElementById('nomInput');
-  const nom = inputElement.value.trim(); // Supprimer les espaces en début et en fin
-  const nomFormate = nom.charAt(0).toUpperCase() + nom.slice(1).toLowerCase();
-
-  // Vérifier les conditions
-  if (/^[a-zA-Z]{3,16}$/.test(nom)) {
-    // Le nom est valide, on l'affiche sous forme formatée
-    inputElement.value = nomFormate;
-    document.getElementById('messageErreur').textContent = '';
-  } else {
-    // Le nom n'est pas valide, on affiche un message d'erreur
-    document.getElementById('messageErreur').textContent = 'Le nom doit contenir uniquement des lettres, commencer par une majuscule, avoir entre 3 et 16 caractères.';
-  }
-}
-
-window.onload = function() {
+   const inputElement = document.getElementById('nomInput');
+   const nom = inputElement.value.trim();
+   const nomFormate = nom.charAt(0).toUpperCase() + nom.slice(1).toLowerCase();
+ 
+   if (/^[a-zA-Z]{3,16}$/.test(nom)) {
+     inputElement.value = nomFormate;
+     document.getElementById('messageErreur').textContent = '';
+   } else {
+     document.getElementById('messageErreur').textContent = 'Le nom doit contenir uniquement des lettres, commencer par une majuscule, avoir entre 3 et 16 caractères.';
+   }
+ }
+ 
+ // Appeler la fonction lors du chargement de la page
+ window.onload = function() {
    validerEtFormaterNom();
  };
