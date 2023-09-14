@@ -18,12 +18,12 @@
     <form class="form" id="one" action="/game" method="post">
       <div class="pageTitle title">Création Personnage </div>
       <div class="secondaryTitle title">Veuillez compléter les champs pour créer le personnage</div>
-      <input type="text" class="name formEntry" placeholder="Nom du personnage " name ="username"  required/>
+      <input type="text" class="name formEntry" placeholder="Nom du personnage " name ="username"  required />
    
-      <fieldset id="object" aria-required="true">
+      <fieldset id="object" aria-required="true" required="required">
 
 
-        <div class="radio-image">
+        <div class="radio-image" aria-required="true" required>
           <legend>Choisissez un objet qui vous aidera dans votre aventure:</legend>
           <input type="radio" id="option1" name="options" value="1">
           <label for="option1" class="picto-item" aria-label="Stat de départ: or: +0  reputation: + 20 ">
