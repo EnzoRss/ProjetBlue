@@ -30,9 +30,9 @@
           </div>
 
         <div class="resume">
-            {{if Data.Data.event.Description}} 
+            {{if Data.type="event"}} 
                 ( {{:Data.Data.event.Description}} )
-            {{else Data.Data.event.consequence}} 
+            {{else Data.consequence="consequence"}} 
                 ( {{:Data.Data.event.consequence}} )    
             {{/if}}
         </div>
