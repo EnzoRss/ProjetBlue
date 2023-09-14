@@ -9,10 +9,29 @@
 <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;700&family=Poppins:ital,wght@1,500&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="cart-ctn open-cart"> <h1 id='store'>Achat</h1>
+        <p id="tip"> Cliquez sur  à nouveau le panier pour fermer le menu</p>
+    </br><p id="descriptionitem">objet<p><form method='post'>
 
+        <button  id="buy" type='submit'>Acheter</button>
+        
+        <p id="price">90 Or<p></p>
+    </form>
+</br><p id="descriptionitem">objet<p><form method='post'>
+    <button  id="buy"type='submit'>Acheter</button>
+    <p id="price">60 Or<p></p>
+</form>
+</br><p id="descriptionitem">objet<p><form method='post'>
+    <button  id="buy" type='submit'>Acheter</button>
+    <p id="price">40 Or<p></p>
+</form>
+
+
+        </div>
       <div class="content">
 
           <div class="header">
+          
 
                   <div class="popularity">
                       <img src="assets/img/popularity.png" alt="">
@@ -35,6 +54,8 @@
             {{else Data.consequence="consequence"}} 
                 ( {{:Data.Data.event.consequence}} )    
             {{/if}}
+
+            <button  id="shop" style=" display:none;background-image: url(./assets/img/shop.png);height: 50px;width: 50px;background-size:90% ;background-repeat: no-repeat;background-color: #C6AC8F;"  onclick="loadCart()">  </button>
         </div>
 
         <div class="choices">
@@ -57,6 +78,11 @@
       </div>
 
         
+<<<<<<< Updated upstream
+=======
+        <script src="assets/Js/scripts.js"></script>
+        <script src="assets/Js/shop.js"></script>
+>>>>>>> Stashed changes
 </body>
 </html>
 
