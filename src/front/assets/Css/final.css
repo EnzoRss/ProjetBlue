@@ -1,0 +1,276 @@
+body {
+    background-color:  #4179b5;
+  }
+  
+  #title-Tag-Line {
+    font-size: 20px;
+  }
+  /* .card-item__bg{
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    display: block;
+    position: relative;
+    margin: 30px auto;
+    transform: translate(0px, 50px);
+    z-index: 5;
+  } */
+  
+  /* form animation starts */
+  .form {
+    background: #c7d1db;
+    box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+    border-radius: 5px;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    border-top: 5px solid #1f4db1;
+  /*   z-index: 1; */
+    animation: bounce 1.5s infinite;
+    font-family: 'Dosis', sans-serif;
+    
+  }
+  ::-webkit-input-placeholder {
+    font-size: 1.3em;
+  }
+  
+  .title{
+    display: block;
+    font-family: 'Dosis', sans-serif;;
+    margin: 10px auto 5px;
+    width: 300px;
+  }
+  .termsConditions{
+    margin: 0 auto 5px 80px;
+  }
+  
+  .pageTitle{
+    font-size: 2em;
+    font-weight: bold;
+  }
+  .secondaryTitle{
+    color: grey;
+  }
+  
+  .name {
+    background-color: #ebebeb;
+    color: rgb(53, 101, 121);
+  }
+  .name:hover {
+    border-bottom: 5px solid #1a40a8;
+    height: 30px;
+    width: 380px;
+    transition: ease 0.5s;
+  }
+  
+  .email {
+    background-color: #ebebeb;
+    height: 2em;
+  }
+  
+  .email:hover {
+    border-bottom: 5px solid #0e3721;
+    height: 30px;
+    width: 380px;
+    transition: ease 0.5s;
+  }
+  
+  .message {
+    background-color: #ebebeb;
+    overflow: hidden;
+    height: 10rem;
+  }
+  
+  .message:hover {
+    border-bottom: 5px solid #1352c7;
+    height: 12em;
+    width: 380px;
+    transition: ease 0.5s;
+  }
+  
+  .formEntry {
+    display: block;
+    margin: 30px auto;
+    min-width: 300px;
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+    transition: all 0.5s ease 0s;
+  }
+  
+  .submit {
+    width: 200px;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    background-color: #16226b;
+    font-size: 20px;
+  }
+  
+  .submit:hover {
+    box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);
+    transform: translateY(-3px);
+    width: 300px;
+    border-top: 5px solid #157bbb;
+    border-radius: 0%;
+    cursor: pointer;
+  }
+  
+  @keyframes bounce {
+    0% {
+      tranform: translate(0, 4px);
+    }
+    50% {
+      transform: translate(0, 8px);
+    }
+  } 
+
+
+  fieldset{
+   
+    background-color: #ebebeb;
+    border-radius: 5%;
+    right: 50%;
+    border: transparent;
+   
+    font-weight: bolder;
+    height: 30%;
+    margin: 2rem;
+  }
+
+
+  input[type=radio]:hover{
+    scale: 1.2;
+    color: #0e3750;
+  
+  }
+  
+
+  #mouse:hover{/* 
+    border: #0e3750 2px solid; */
+    border-radius: 5%;
+    transition: 0.2s;
+    scale: 1.1;
+    background-color: #c5cad6;
+  }
+
+ 
+
+  #monitor:hover{
+ /*    border: #0e3750 2px solid; */
+    border-radius: 5%;
+    transition: 0.2s;
+    scale: 1.1;
+  /*   height: 60px;
+    width: 60px; */
+    background-color: #d1d8e6;
+  }
+
+  #controller{
+    position: relative;
+  }
+  #controller:hover{
+/*     border: #0e3750 2px solid; */
+    border-radius: 5%;
+    transition: 0.2s;
+    scale: 1.1;
+    background-color: #bcc2ce;
+  }
+  
+#firstitem{
+margin: 0.2rem;
+color: #829ace;
+}
+#seconditem{
+    margin: 0.2rem;
+    color: #7388b4;
+}
+  
+  #thirditem{
+    color: #8192b6;
+  }
+
+  
+  #title{
+    color: #313235;
+  }
+
+  [answers]{
+    color: #1767b8;
+  }
+
+  :placeholder-shown{
+    color: #16226b;
+    opacity: 0.8;
+  }
+  #effect{
+   margin: 2rem;
+  }
+
+
+
+ .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 105%;
+  }
+
+  .controller:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+.radio-image input[type="radio"] {
+    display: none;
+  }
+  
+  .radio-image label {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .radio-image label img {
+    width: 50px; 
+    height: 50px;
+    border: 2px solid #f8f7f7 ;
+  
+    
+  }
+
+  .radio-image label img:hover{
+    scale: 1.1;
+    transition: border-color 0.2s; 
+    background-color:#5c8cbe;
+    transition: 0.5s;
+    border: 2px solid #007bff;
+  }
+  
+  .radio-image input[type="radio"]:checked + label img {
+    border-color: #8bbbdb; 
+  }
+
+  .picto-item {
+    position: relative; 
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  legend{
+    padding: 10px;
+  }
+  
