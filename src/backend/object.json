@@ -1,49 +1,8 @@
 {
- "object" : [
+ "object" :
    {
-     "name":"Chaise gaming" ,
-     "description": "vous permet de passer un evènement ",
-     "prix": "50",
-     "effet":"pass_event"
+     
 
-   } ,
+   }
 
-   {
-    "name":"Casque gamer" ,
-    "description": "votre or est augmentée de  25",
-    "prix": "20",
-    "effet":"gain_25gold"
-  },
-
-  {
-    "name":"clavier mécanique" ,
-    "description": "votre réputation est augmentée de  60",
-    "prix": "50",
-    "effet":"gain_10rep"
-
-  },
-  {
-    "name":"clavier mécanique" ,
-    "description": "votre réputation est augmentée de  10 et votre or de 15",
-    "prix": "30",
-    "effet":"gain10rep15gold"
-
-  },
-
-
-  {
-    "name":"Perche de selfie" ,
-    "description": "vous gagnez  3 de reputation supplémentaire lors des choix  ",
-    "prix": "50",
-    "effet":"gain3_rep_more"
-
-  },
-  {
-    "name":"héritage qui tombe à pic " ,
-    "description": "permet d'eviter la banqueroute 1 fois mais votre objet est détruit  ce faisant",
-    "prix": "50",
-    "effet":"nobankrupt"
-
-  }
- ]
 }
