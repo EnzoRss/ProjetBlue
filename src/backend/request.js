@@ -83,7 +83,6 @@ let cons = function consquence(id, choix) {
     }
     console.log("id : " + id)
     Data.Data.consequence['choix'] = data_conse.Consequences[`${id}`][`${choix}`];
-    console.log('POPUUUUUU: ' +Data.Data.consequence.choix.popu)
     return Data
 }
 

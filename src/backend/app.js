@@ -85,7 +85,6 @@ app.post("/game", function (req, res,) {
                 console.log("result: " + list_event[list_event.length -1])
                 data.Data = request.cons(list_event[list_event.length -1], choix_cons)
                 data.Data.Data.Player.argent=  (Number(data.Data.Data.Player.argent)  + Number( data.Data.Data.consequence.choix['or'])).toString()
-            console.log("Popularité : " + data.Data.Data.consequence.choix.popu)
                 data.Data.Data.Player.popu = (Number(data.Data.Data.Player.popu)  + Number( data.Data.Data.consequence.choix['popu'])).toString()
             }
             data.type = type
