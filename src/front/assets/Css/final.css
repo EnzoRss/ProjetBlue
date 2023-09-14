@@ -5,20 +5,7 @@ body {
   #title-Tag-Line {
     font-size: 20px;
   }
-  /* .card-item__bg{
-    width: 150px;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;
-    display: block;
-    position: relative;
-    margin: 30px auto;
-    transform: translate(0px, 50px);
-    z-index: 5;
-  } */
-  
-  /* form animation starts */
+
   .form {
     background: #c7d1db;
     box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
@@ -32,7 +19,7 @@ body {
     right: 0;
     position: absolute;
     border-top: 5px solid #1f4db1;
-  /*   z-index: 1; */
+  
     animation: bounce 1.5s infinite;
     font-family: 'Dosis', sans-serif;
     
@@ -152,8 +139,8 @@ body {
   }
   
 
-  #mouse:hover{/* 
-    border: #0e3750 2px solid; */
+  #mouse:hover{
+ 
     border-radius: 5%;
     transition: 0.2s;
     scale: 1.1;
@@ -163,12 +150,11 @@ body {
  
 
   #monitor:hover{
- /*    border: #0e3750 2px solid; */
+
     border-radius: 5%;
     transition: 0.2s;
     scale: 1.1;
-  /*   height: 60px;
-    width: 60px; */
+
     background-color: #d1d8e6;
   }
 
@@ -176,7 +162,7 @@ body {
     position: relative;
   }
   #controller:hover{
-/*     border: #0e3750 2px solid; */
+
     border-radius: 5%;
     transition: 0.2s;
     scale: 1.1;
@@ -224,7 +210,7 @@ color: #829ace;
     border-radius: 6px;
     padding: 5px 0;
     
-    /* Position the tooltip */
+  
     position: absolute;
     z-index: 1;
     top: -5px;
