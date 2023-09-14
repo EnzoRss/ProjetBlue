@@ -16,36 +16,34 @@
 
                   <div class="popularity">
                       <img src="assets/img/popularity.png" alt="">
-                      <p>{{:Player.popu}}</p>
+                      <p>{{:Data.Data.Player.popu}}</p>
                   </div>
 
                   <div class="name">
-                      <h2>{{:Player.username}}</h2>
+                      <h2>{{:Data.Data.Player.username}}</h2>
                   </div>
 
                   <div class="money">
                       <img src="assets/img/money.png" alt="">
-                      <p>{{:Player.argent}}</p>
+                      <p>{{:Data.Data.Player.argent}}</p>
                   </div>
           </div>
 
         <div class="resume">
-            {{if event.Description}} 
-            ( {{:event.Description}} )
-            {{else Consequence.choice1}}    
-            {{:Consequence.choice1}}
-            {{else Consequence.choice2}}
-            {{:Consequence.choice2}}
+            {{if Data.Data.event.Description}} 
+                ( {{:Data.Data.event.Description}} )
+            {{else Data.Data.event.consequence}} 
+                ( {{:Data.Data.event.consequence}} )    
             {{/if}}
         </div>
 
         <div class="choices">
                 <form>
-                <button type="submit" value="choice1"  id="choices1" > <p>{{:event.Choix_1}}</p></button>
-                </form>    
+                    <button type="submit" value="choice1"  id="choices1" > <p>{{:Data.Data.event.Choix_1}}</p></button>
+                </form>
 
                 <form>
-                <button type="submit" value="choice2"  id="choices2" > <p>{{:event.Choix_2}}</p></button>
+                    <button type="submit" value="choice2"  id="choices2" > <p>{{:Data.Data.event.Choix_2}}</p></button>
                 </form>    
               
         </div>

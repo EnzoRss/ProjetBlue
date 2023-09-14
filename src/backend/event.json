@@ -16,7 +16,7 @@
       "Choix_2": "Prendre les produits dopants"
     },
     "4": {
-      "Description": "Alors que vous planifiez votre week-end, une opportunité unique se présente : un événement spécial dédié à votre jeu vidéo préféré, qui ne se produit qu'une fois dans une vie, aura lieu en ville. D'un côté, vous pourriez décider de participer à cet événement, rencontrer d'autres fans, obtenir des objets exclusifs et peut-être même rencontrer les créateurs du jeu. D'un autre côté, cela signifierait sacrifier d'autres engagements importants et peut-être décevoir des amis ou des proches qui comptaient sur vous. Le choix n'est pas facile, car il s'agit d'une occasion unique, mais il est également important de ne pas négliger vos responsabilités et vos engagements. Allez-vous céder à la tentation et plonger dans le monde de votre jeu préféré, ou allez-vous honorer vos engagements et responsabilités, sachant que cette opportunité spéciale pourrait ne jamais se reproduire",
+      "Description": "Alors que vous planifiez votre week-end, une opportunité unique se présente : un événement spécial dédié à votre jeu vidéo préféré, D'un côté, vous pourriez décider de participer à cet événement, apres tout c'est votre jeu preferer. D'un autre côté, cela signifierait sacrifier d'autres engagements importants et peut-être décevoir des amis ou des proches qui comptaient sur vous.",
       "Choix_1": "Y aller ",
       "Choix_2": "Ne pas y aller"
     },
@@ -36,7 +36,7 @@
       "Choix_2": "Y Renoncer"
     },
     "8": {
-      "Description": "Alors que votre stream gagne en popularité, l'occasion se présente de faire des microtransactions pour obtenir des caisses mystères, chacune promettant une surprise différente. Vous êtes confronté à un choix  : ouvrir trois caisses mystères ou aller plus loin en en ouvrant dix. La tentation d'obtenir un butin rare et précieux est grande, mais vous devez peser le risque financier et l'impact sur votre réputation. C'est un choix difficile à faire alors que votre public attend avec impatience de voir ce que vous allez dévoiler. Quelle option choisirez-vous pour la suite du stream ?",
+      "Description": "Il se fais tard sur le stream et vous commencez a etre a bout, vous fais des ouverture de microtransaction avec les derniers viewers sur le stream, vous en avez ouvere deja pas mal et rien de tres exeptionnelle, vous choissisez alors soit d'en ouvrir trois dernieres ou alors d'ouvrir un paque de 10, même si ça commence a faire chere.",
       "Choix_1": " Ouvrir 10 Caisses",
       "Choix_2": " ouvrir 3 Caisses"
     }
