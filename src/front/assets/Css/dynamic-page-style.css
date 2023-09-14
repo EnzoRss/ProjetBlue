@@ -23,7 +23,7 @@ body {
     height: 250px;
     width: 80%;
     font-family: Montserrat, sans-serif;;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 40px;
     font-weight: bold;
     color: #000000;
@@ -56,6 +56,8 @@ body {
     box-shadow: 20px 20px rgba(0,0,0,.30);
     transition: all .4s ease;
     border: #5E503F solid 4px;
+    position: relative;
+    left: -25%;
 }
 
 #choices1 p {
@@ -96,6 +98,8 @@ body {
     transition: all .4s ease;
     border: #5E503F solid 4px;
     cursor: pointer;
+    position: relative;
+    left: 25%;
 }
 
 #choices2:hover {
@@ -251,4 +255,15 @@ cursor: pointer;
   #tip{
     right: -8%;
     position: relative;
+  }
+
+  #netxevent{
+    width: 85px ;
+    height: 75px;
+    color: rgb(10, 16, 20);
+    background-color: #C6AC8F;
+    border: 2px #5E503F  solid;
+    font-family: 'Dosis',sans-serif;
+    font-weight: bold;
+    border-radius: 5%;
   }
