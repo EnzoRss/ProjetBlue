@@ -257,6 +257,11 @@ color: #829ace;
     border-radius: 50%;
   }
   legend{
-    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
   }
   
+
+  #resulttext{
+    margin: -3rem 5rem;
+  }

@@ -28,7 +28,8 @@
           <input type="radio" id="option1" name="options" value="1">
           <label for="option1" class="picto-item" aria-label="vous commencez avec 100or">
             <img  class="picto-item" src="./assets/img/money.png" alt="Option 1">
-            <p>{{:Player.popu}}</p>
+            <p id="resulttext">{{Data.Data.Player.argent}}</p>
+            
           </label>
           <legend id="itemlegend1"> Or </legend>
         </div>
@@ -37,6 +38,7 @@
           <input type="radio" id="option2" name="options" value="2">
           <label for="option2" class="picto-item" aria-label="vous commencez avec 500or">
             <img  class="picto-item"  src="./assets/img/popularity.png" alt="Option 2">
+            <p id="resulttext">{{:Data.Data.Player.popu}}</p>
           </label>
           <legend  id="itemlegend2"> Popularité </legend>
         </div>
@@ -44,6 +46,22 @@
             <input type="radio" id="option3" name="options" value="3">
             <label for="option3" class="picto-item" aria-label="vous commencez avec 1000or">
               <img  class="picto-item" src="./assets/img/morality.png" alt="Option 2">
+
+             {{if Data.Data.Player.popu  <=-50  }}
+              <p id="resulttext"></p>
+              {{else}}
+              <p id="vous etes un monstre"></p>
+              {{if Data.Data.Player.popu  > -50 && || Data.Data.Player.popu < 0 }}
+              <p id="vous etes loin d'etre en odeur de sainteté"></p>
+              {{if  Data.Data.Player.popu  >=0 ||   Data.Data.Player.popu < 50 }}
+              <p id="vous etes  bienfaisant "></p>
+              {{if  Data.Data.Player.popu  >=50  }}
+              <p id="vous etes  un saint"></p>
+           
+              
+              {{/if}}
+
+
           </label>
           <legend  id="itemlegend3"> moralité </legend>
         </div>
