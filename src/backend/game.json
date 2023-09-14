@@ -3,21 +3,21 @@
   {
    "username": "n ",
     "popu" : " 0",
-    "argent" : "100",
-    "inventaire" : "Manette"
+    "argent" : "110",
+    "inventaire" :["Manette"]
   },
   "Valorant" :
   {
     "username" : "n ",
-    "popu" : "0 ",
-    "argent" : "500",
-    "inventaire" : "ecran 360hz"
+    "popu" : "50",
+    "argent" : "10",
+    "inventaire" : ["ecran 360hz"]
   },
-  "Legeue_of_legends":
+  "League_of_legends":
   {
     "username": " n",
-    "popu": " 0",
-    "argent" : "1000",
-    "inventaire" : "souris 12 bouton"
+    "popu": "25",
+    "argent" : "60",
+    "inventaire" : ["souris 12 bouton"]
   }
 }

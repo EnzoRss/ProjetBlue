@@ -5,80 +5,98 @@
     <title>Choose you're choice</title>
     <link href="assets/Css/dynamic-page-style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;700&family=Poppins:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;700&family=Poppins:ital,wght@1,500&display=swap"
+          rel="stylesheet">
 </head>
 <body>
-    <div class="cart-ctn open-cart"> <h1 id='store'>Achat</h1>
-        <p id="tip"> Cliquez sur  à nouveau le panier pour fermer le menu</p>
-    </br><p id="descriptionitem">objet<p><form method='post'>
+<div class="cart-ctn open-cart"><h1 id='store'>Achat</h1>
+    <p id="tip"> Cliquez sur à nouveau le panier pour fermer le menu</p>
+    </br><p id="descriptionitem">objet
+    <p>
+    <form method='post'>
 
-        <button  id="buy" type='submit'>Acheter</button>
-        
-        <p id="price">90 Or<p></p>
+        <button id="buy" type='submit'>Acheter</button>
+
+        <p id="price">90 Or
+        <p></p>
     </form>
-</br><p id="descriptionitem">objet<p><form method='post'>
-    <button  id="buy"type='submit'>Acheter</button>
-    <p id="price">60 Or<p></p>
-</form>
-</br><p id="descriptionitem">objet<p><form method='post'>
-    <button  id="buy" type='submit'>Acheter</button>
-    <p id="price">40 Or<p></p>
-</form>
+    </br><p id="descriptionitem">objet
+    <p>
+    <form method='post'>
+        <button id="buy" type='submit'>Acheter</button>
+        <p id="price">60 Or
+        <p></p>
+    </form>
+    </br><p id="descriptionitem">objet
+    <p>
+    <form method='post'>
+        <button id="buy" type='submit'>Acheter</button>
+        <p id="price">40 Or
+        <p></p>
+    </form>
 
 
-        </div>
-      <div class="content">
+</div>
+<div class="content">
 
-          <div class="header">
-          
+    <div class="header">
 
-                  <div class="popularity">
-                      <img src="assets/img/popularity.png" alt="">
-                      <p>{{:Data.Data.Player.popu}}</p>
-                  </div>
 
-                  <div class="name">
-                      <h2>{{:Data.Data.Player.username}}</h2>
-                  </div>
-
-                  <div class="money">
-                      <img src="assets/img/money.png" alt="">
-                      <p>{{:Data.Data.Player.argent}}</p>
-                  </div>
-          </div>
-
-        <div class="resume">
-            {{if Data.type="event"}} 
-                ( {{:Data.Data.event.Description}} )
-            {{else Data.consequence="consequence"}} 
-                ( {{:Data.Data.event.consequence}} )    
-            {{/if}}
-
-            <button  id="shop" style=" display:none;background-image: url(./assets/img/shop.png);height: 50px;width: 50px;background-size:90% ;background-repeat: no-repeat;background-color: #C6AC8F;"  onclick="loadCart()">  </button>
+        <div class="popularity">
+            <img src="assets/img/popularity.png" alt="">
+            <p>{{:Data.Data.Player.popu}}</p>
         </div>
 
-        <div class="choices">
-            {{if Data.type="event"}}
-            (
-                <form method="post">
-                    <button type="submit" value="Choix_1" name="choix_cons" id="choices1" > <p>{{:Data.Data.event.Choix_1}}</p></button>
-                </form>
-
-                <form method="post">
-                    <button type="submit" value="Choix_2" name="choix_cons" id="choices2" > <p>{{:Data.Data.event.Choix_2}}</p></button>
-                </form>    
-            )
-            {{else Data.consequence="consequence"}} (
-                <form method="post">
-                    <button type="submit"> <p> event suivant </p></button>
-                </form>    
-            )
-            {{/if}}
+        <div class="name">
+            <h2>{{:Data.Data.Player.username}}</h2>
         </div>
-      </div>
 
+<<<<<<< HEAD
         <script src="assets/Js/scripts.js"></script>
         <script src="assets/Js/shop.js"></script>
+=======
+        <div class="money">
+            <img src="assets/img/money.png" alt="">
+            <p>{{:Data.Data.Player.argent}}</p>
+        </div>
+    </div>
+
+    <div class="resume">
+        {{if Data.type="event"}}
+        ( {{:Data.Data.event.Description}} )
+        {{else Data.consequence="consequence"}}
+        ( {{:Data.Data.event.consequence}} )
+        {{/if}}
+
+        <button id="shop"
+                style=" display:none;background-image: url(./assets/img/shop.png);height: 50px;width: 50px;background-size:90% ;background-repeat: no-repeat;background-color: #C6AC8F;"
+                onclick="loadCart()"></button>
+    </div>
+
+    <div class="choices">
+        {{if Data.type="event"}}
+        (
+        <form method="post">
+            <button type="submit" value="Choix_1" name="choix_cons" id="choices1"><p>{{:Data.Data.event.Choix_1}}</p>
+            </button>
+        </form>
+
+        <form method="post">
+            <button type="submit" value="Choix_2" name="choix_cons" id="choices2"><p>{{:Data.Data.event.Choix_2}}</p>
+            </button>
+        </form>
+        )
+        {{else Data.consequence="consequence"}} (
+        <form method="post">
+            <button id="netxevent" type="submit"  ><p> Event suivant </p></button>
+        </form>
+        )
+        {{/if}}
+    </div>
+</div>
+<script src="assets/Js/scripts.js"></script>
+<script src="assets/Js/shop.js"></script>
+>>>>>>> b7c481f7f8efe7779d99a19df34e0353bf4f081b
 </body>
 </html> 
