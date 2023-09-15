@@ -10,7 +10,8 @@
         "text": "En décidant de consacrer votre soirée à l'entraînement plutôt que de sortir en boîte, vous avez fait preuve de détermination et de discipline. Votre choix de travailler dur en vue de la compétition a porté ses fruits. Vous avez non seulement remporté la victoire, mais également gagné de la réputation en tant que concurrent sérieux et compétent. Cette victoire vous a également valu un prix considérable, récompensant vos efforts et votre dévouement. Bien que vous ayez manqué une soirée de divertissement en boîte, votre décision vous a apporté des gains bien plus importants sur le plan professionnel et personnel, renforçant ainsi votre réputation dans le domaine de la compétition  et faisant de vous le champion incontesté au niveau mondial  de votre domaine accroissant de manière considérable votre prestige ",
         "or": "550",
         "popu": "200"
-      },
+      }
+    },
       "2": {
         "choix_1": {
           "text": "Après avoir choisi de tricher lors du match qui ne vous a pas permis de gagner, les conséquences commencent à se faire sentir. Votre décision d'enfreindre les règles du e-sport a rapidement attiré l'attention et la désapprobation de vos pairs, entraînant une perte totale de votre réputation dans le monde du e-sport. Les médias du milieux  vous qualifient de tricheur notoire, et vos sponsors vous tournent le dos les uns après les autres. Votre nom est maintenant synonyme de malhonnêteté, et votre carrière sportive est en ruines. Les opportunités de participer à d'autres compétitions s'amenuisent, et vous devez faire face à des sanctions sévères imposées par l'instance dirigeante du e-sport. La tricherie, bien qu'elle ait pu sembler être une solution rapide pour gagner, a eu un coût élevé.La route vers la rédemption s'annonce difficile",
@@ -97,4 +98,5 @@
       }
     }
   }
+
 
